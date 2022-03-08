@@ -1,4 +1,4 @@
-import tl = require('azure-pipelines-task-lib/task');
+import * as tl from "azure-pipelines-task-lib/task";
 import * as azdev from "azure-devops-node-api";
 import * as witif from "azure-devops-node-api/interfaces/WorkItemTrackingInterfaces";
 import * as witapi from "azure-devops-node-api/WorkItemTrackingApi"
@@ -192,10 +192,16 @@ async function run() {
         const connection = getADOConnection();
         const result = await getQueryResult(connection);
         
+        if (result == null)
+        {
+            tl.setResult(tl.TaskResult.Failed, "Result was null. Make sure <project> Build Service (<org>) has Read permissions on the Query.")
+            throw new Error("Result was null. Make sure <project> Build Service (<org>) has Read permissions on the Query.");
+        }
+
         const wit: witapi.IWorkItemTrackingApi = await connection.getWorkItemTrackingApi();
         const query = await wit.getQuery(projectId, queryId);
 
-        tl.debug(JSON.stringify(result));
+        tl.debug("QUERY RESULT: " + JSON.stringify(result));
 
         switch(result.queryResultType)
         {
@@ -234,7 +240,12 @@ async function run() {
                 break;
         }
     } catch (err) {
-        tl.setResult(tl.TaskResult.Failed, err.message);
+        if (err instanceof Error)
+        {
+            tl.setResult(tl.TaskResult.Failed, err.message);
+        } else {
+            tl.setResult(tl.TaskResult.Failed, 'An error occurred.');
+        }
     }
 }
 

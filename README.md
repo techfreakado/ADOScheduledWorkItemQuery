@@ -41,6 +41,7 @@ It is not needed if you want to send out queries living in the "Shared Queries" 
 #### Shared Queries
 
 Shared queries can be scheduled without any other authentication, it uses the authentication/authorization of the Agent to connect to Azure DevOps Service / Azure DevOps Server.
+However, it might be possible that you need to add "Read" Permissions to the "\<project> Build Service (\<organization>)" User.
 
 #### Personal (My) Queries
 
@@ -53,6 +54,7 @@ Make sure you don't expose the endpoint for others to use, as this might be a se
 ## 2022-03-08
 - Rebrand as TechFreak
 - Update dependencies
+- Improve error message when there is a permission problem
 
 ## 2020-02-14
 

@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "name": "Scheduled Work Item Query",
-    "version": "0.0.200",
-    "publisher": "techfreak",
+    "version": "0.0.202",
+    "publisher": "TechFreak",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
