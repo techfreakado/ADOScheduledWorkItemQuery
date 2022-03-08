@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "name": "Scheduled Work Item Query E-Mail",
-    "version": "0.0.209",
+    "version": "0.0.210",
     "publisher": "TechFreak",
     "targets": [
         {
