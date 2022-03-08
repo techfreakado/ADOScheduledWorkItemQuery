@@ -1,5 +1,8 @@
 # Azure DevOps Scheduled Work Item Query
 
+## NOTE
+This is the successor of [Quadrotech Scheduled Work Item Query](https://marketplace.visualstudio.com/items?itemName=Quadrotech.ADOScheduledWorkItemQuery). I am the same developer of the original, but I'm not employed at Quadrotech anymore. I am continuing this under my own account, as I don't have access to the Quadrotech original anymore.
+
 ## Introduction
 
 The Goal of this extension was to keep as much functionality as possible inside Azure DevOps / Team Foundation Server.
