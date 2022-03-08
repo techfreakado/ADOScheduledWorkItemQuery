@@ -1,4 +1,4 @@
-# Azure DevOps Scheduled Work Item Query
+# Azure DevOps Scheduled Work Item Query E-Mail
 
 ## NOTE
 This is the successor of [Quadrotech Scheduled Work Item Query](https://marketplace.visualstudio.com/items?itemName=Quadrotech.ADOScheduledWorkItemQuery). I am the same developer of the original, but I'm not employed at Quadrotech anymore. I am continuing this under my own account, as I don't have access to the Quadrotech original anymore.

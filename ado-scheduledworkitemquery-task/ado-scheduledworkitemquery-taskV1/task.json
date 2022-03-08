@@ -1,7 +1,7 @@
 {
     "id": "6C8B8647-7AC2-41E2-AA10-68924EAA46C1",
     "name": "TFADOScheduledWorkItemQuery",
-    "friendlyName": "Scheduled Work Item Query",
+    "friendlyName": "Scheduled Work Item Query E-Mail",
     "description": "Sends an E-Mail on a Schedule for Work Item Queries",
     "helpUrl": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery",
     "helpMarkDown": "[More Information](https://github.com/techfreakado/TFADOScheduledWorkItemQuery)",
