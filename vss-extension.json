@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "name": "Scheduled Work Item Query E-Mail",
-    "version": "0.0.203",
+    "version": "0.0.209",
     "publisher": "TechFreak",
     "targets": [
         {
@@ -74,12 +74,12 @@
             }
         },
         {
-            "id": "sendgrid-endpoint-type",
+            "id": "sendgrid-tf-adoscheduledworkitem-endpoint-type",
             "description": "Service endpoint type for sendgrid connections",
             "type": "ms.vss-endpoint.service-endpoint-type",
             "targets": [ "ms.vss-endpoint.endpoint-types" ],
             "properties": {
-              "name": "sendgrid",
+              "name": "sendgrid-tf-adoscheduledworkitem",
               "displayName": "SendGrid connection",
               "url": {
                 "displayName": "Server Url",
@@ -122,12 +122,12 @@
             }
         },
         {
-            "id": "smtp-endpoint-type",
+            "id": "smtp-tf-adoscheduledworkitem-endpoint-type",
             "description": "Service endpoint type for SMTP connections",
             "type": "ms.vss-endpoint.service-endpoint-type",
             "targets": [ "ms.vss-endpoint.endpoint-types" ],
             "properties": {
-              "name": "smtp",
+              "name": "smtp-tf-adoscheduledworkitem",
               "displayName": "SMTP connection",
               "url": {
                 "displayName": "SMTP Server Name",

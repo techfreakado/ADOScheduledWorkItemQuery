@@ -116,7 +116,7 @@ function getOrgUrl() : string
         }
 
         case "Shared": {
-            return tl.getEndpointUrl('SystemVssConnection', false)!;
+            return tl.getEndpointUrl('SYSTEMVSSCONNECTION', false)!;
         }
 
         default: {
@@ -163,7 +163,7 @@ function getADOConnection() : azdev.WebApi
         }
 
         case "Shared": {
-            const token = tl.getEndpointAuthorizationParameter('SystemVssConnection', 'AccessToken', false)!;
+            const token = tl.getEndpointAuthorizationParameter('SYSTEMVSSCONNECTION', 'AccessToken', false)!;
             const orgUrl = getOrgUrl();
             
             const authHandler = azdev.getBearerHandler(token)!;

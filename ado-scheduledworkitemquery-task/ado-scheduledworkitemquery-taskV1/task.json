@@ -11,7 +11,7 @@
     "preview": false,
     "version": {
         "Major": 0,
-        "Minor": 90,
+        "Minor": 91,
         "Patch": 0
     },
     "visibility": [
@@ -52,7 +52,7 @@
         },
         {
             "name": "connectedServiceNameSendGrid",
-            "type": "connectedService:sendgrid",
+            "type": "connectedService:sendgrid-tf-adoscheduledworkitem",
             "groupName": "emailconnection",
             "label": "SendGrid Connection",
             "required": true,
@@ -61,7 +61,7 @@
         },
         {
             "name": "connectedServiceNameSMTP",
-            "type": "connectedService:smtp",
+            "type": "connectedService:smtp-tf-adoscheduledworkitem",
             "groupName": "emailconnection",
             "label": "SMTP Connection",
             "required": true,

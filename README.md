@@ -58,6 +58,7 @@ Make sure you don't expose the endpoint for others to use, as this might be a se
 - Rebrand as TechFreak
 - Update dependencies
 - Improve error message when there is a permission problem
+- Fix running on Linux Agent
 
 ## 2020-02-14
 
