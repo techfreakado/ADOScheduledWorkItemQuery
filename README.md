@@ -1,4 +1,4 @@
-# Azure DevOps Schedule Work Item Query
+# Azure DevOps Scheduled Work Item Query
 
 ## Introduction
 
@@ -49,6 +49,10 @@ Note: We recommend generating a Personal Access Token with minimal rights (e.g. 
 Make sure you don't expose the endpoint for others to use, as this might be a security risk.
 
 # Release Notes
+
+## 2022-03-08
+- Rebrand as TechFreak
+- Update dependencies
 
 ## 2020-02-14
 

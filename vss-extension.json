@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "name": "Scheduled Work Item Query",
-    "version": "0.0.111",
-    "publisher": "Quadrotech",
+    "version": "0.0.200",
+    "publisher": "techfreak",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"
@@ -40,34 +40,31 @@
     },
     "links": {
         "home": {
-            "uri": "https://github.com/Quadrotech/ADOScheduledWorkItemQuery"
+            "uri": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery"
         },
         "getstarted": {
-            "uri": "https://github.com/Quadrotech/ADOScheduledWorkItemQuery"
+            "uri": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery"
         },
         "support": {
-            "uri": "https://github.com/Quadrotech/ADOScheduledWorkItemQuery/issues"
+            "uri": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery/issues"
         },
         "repository": {
-            "uri": "https://github.com/Quadrotech/ADOScheduledWorkItemQuery"
+            "uri": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery"
         },
         "issues": {
-            "uri": "https://github.com/Quadrotech/ADOScheduledWorkItemQuery/issues"
+            "uri": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery/issues"
         },
         "company": {
-            "uri": "https://www.quadrotech-it.com/"
-        },
-        "privacypolicy": {
-            "uri": "https://www.quadrotech-it.com/privacy-policy"
+            "uri": "https://www.techfreak.ch/"
         }
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/Quadrotech/ADOScheduledWorkItemQuery"
+        "uri": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery"
     },
     "contributions": [
         {
-            "id": "ADOScheduledWorkItemQuery",
+            "id": "TFADOScheduledWorkItemQuery",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
@@ -121,7 +118,7 @@
                   ]
                 }
               ],
-              "helpMarkDown": "<a href=\"https://github.com/Quadrotech/ADOScheduledWorkItemQuery\" target=\"_blank\"><b>Learn More</b></a>"
+              "helpMarkDown": "<a href=\"https://github.com/techfreakado/TFADOScheduledWorkItemQuery\" target=\"_blank\"><b>Learn More</b></a>"
             }
         },
         {
@@ -328,7 +325,7 @@
                   ]
                 }
               ],
-              "helpMarkDown": "<a href=\"https://github.com/Quadrotech/ADOScheduledWorkItemQuery\" target=\"_blank\"><b>Learn More</b></a>"
+              "helpMarkDown": "<a href=\"https://github.com/techfreakado/TFADOScheduledWorkItemQuery\" target=\"_blank\"><b>Learn More</b></a>"
             }
         }
     ],

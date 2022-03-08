@@ -1,13 +1,13 @@
 {
-    "id": "ED72C92B-B2CB-44D7-B0FA-77691C57A3F1",
-    "name": "ADOScheduledWorkItemQuery",
+    "id": "6C8B8647-7AC2-41E2-AA10-68924EAA46C1",
+    "name": "TFADOScheduledWorkItemQuery",
     "friendlyName": "Scheduled Work Item Query",
     "description": "Sends an E-Mail on a Schedule for Work Item Queries",
-    "helpUrl": "https://github.com/Quadrotech/ADOScheduledWorkItemQuery",
-    "helpMarkDown": "[More Information](https://github.com/Quadrotech/ADOScheduledWorkItemQuery)",
+    "helpUrl": "https://github.com/techfreakado/TFADOScheduledWorkItemQuery",
+    "helpMarkDown": "[More Information](https://github.com/techfreakado/TFADOScheduledWorkItemQuery)",
     "category": "Utility",
-    "author": "Quadrotech Solutions AG",
-    "releaseNotes": "See <a href='https://github.com/Quadrotech/ADOScheduledWorkItemQuery'>GitHub</a> for details",
+    "author": "techfreak.ch",
+    "releaseNotes": "See <a href='https://github.com/techfreakado/TFADOScheduledWorkItemQuery'>GitHub</a> for details",
     "preview": false,
     "version": {
         "Major": 0,
@@ -136,7 +136,7 @@
             "defaultValue": "true",
             "helpMarkDown": "Send e-mail even if the query does not produce any results",
             "required": "true"
-          },
+        },
         {
             "name": "subject",
             "type": "textbox",
@@ -153,7 +153,7 @@
             "label": "E-Mail Addresses",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "A list of e-mail addresses to send to, deliminited by comma, space or newline"
+            "helpMarkDown": "A list of e-mail addresses to send to, delimited by comma, space or newline"
         }
     ],
     "dataSourceBindings": [
